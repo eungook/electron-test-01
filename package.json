@@ -1,0 +1,23 @@
+{
+  "name": "electron-test-01",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "author": "YI Eun Gook",
+  "description": "electron-test-01",
+  "devDependencies": {
+    "electron": "^13.1.2",
+    "electron-builder": "^22.11.7"
+  },
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "your.id",
+    "mac": {
+      "category": "your.app.category.type"
+    }
+  }
+}
